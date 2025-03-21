@@ -1,0 +1,227 @@
+.download-button {
+
+background-color: #333;
+
+color: #fff;
+
+padding: 0.5rem 1rem;
+
+text-decoration: none;
+
+border-radius: 20px;
+
+display: inline-block;
+
+margin-top: 10px;
+
+align-self: center;
+
+}
+
+.download-button:hover {
+
+background-color: #555;
+
+}
+
+footer {
+
+text-align: center;
+
+padding: 1rem 0;
+
+background-color: #333;
+
+color: #fff;
+
+}
+
+ul {
+
+list-style-type: disc;
+
+padding-left: 20px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="header-content">
+
+<!-- Add your profile picture here -->
+
+<img src="passport photo.jpg" alt="Your Profile Picture" class="profile-picture">
+
+<h1>logeshwari R</h1>
+
+<p>Am computer science</p>
+
+</div>
+
+</header>
+
+<nav>
+
+<ul>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#education">Education</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#resume">Resume</a></li>
+
+</ul>
+
+</nav>
+
+<section id="about">
+
+<div class="section-content">
+
+<h2>About Me</h2>
+
+<p>I'm a <b>web development</b>expert I'm a computer science student. I have specific telent in certifical thinking. I enjoy coding problem solving and continuously learning new technology to enhance my skills. My goal is bulid mean. 
+
+
+</p>
+
+</div>
+
+</section>
+
+<section id="education">
+
+<div class="section-content">
+
+<h2>Education</h2>
+
+<p>bharathiyar University - computer science</p>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<div class="section-content">
+
+<h2>Skills</h2>
+
+<ul>
+
+<li>c</li>
+
+<li>c++</li>
+
+<li>Cloud Computing</li>
+
+<li>Python</li>
+
+<li>java</li>
+
+<li>ML & AI</li>
+
+<li>linux </li>
+
+<li>c++</li>
+
+<li>Java script</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<div class="section-content">
+
+<h2>Projects</h2>
+
+<ul>
+
+<li><a href="#">E Cart website</a></li>
+
+<li><a href="#">Cloud Security IBM</a></li>
+
+<li><a href="#">IBM chatbot</a></li>
+
+<li><a href="#">College Portal</a></li> 
+
+<!-- Add more project links here -->
+
+</ul>
+
+</div>
+
+</section>
+
+<section id="resume">
+
+<div class="section-content">
+
+<center>
+
+<h2>Resume</h2>
+
+<a href="file.pdf" target="_blank" class="download-button">Download CV</a>
+
+</center>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>&copy; 2025 Pranesh S</p>
+
+</footer>
+
+<script>
+
+// Smooth scrolling to section when clicking on navigation links
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
+anchor.addEventListener('click', function(e) {
+
+e.preventDefault();
+
+const targetId = this.getAttribute('href').substring(1);
+
+const targetElement = document.getElementById(targetId);
+
+if (targetElement) {
+
+window.scrollTo({
+
+top: targetElement.offsetTop,
+
+behavior: 'smooth'
+
+});
+
+}
+
+});
+
+});
+
+</script>
+
+</body>
+
+</html>
+
